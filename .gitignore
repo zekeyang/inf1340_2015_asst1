@@ -80,3 +80,5 @@ Desktop.ini
 Thumbs.db
 ehthumbs.db
 
+# PyCharm files
+.idea/
