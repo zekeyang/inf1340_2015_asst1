@@ -7,11 +7,24 @@ after the stock transactions
 
 """
 
-__author__ = 'Susan Sim'
-__email__ = "ses@drsusansim.org"
-__copyright__ = "2015 Susan Sim"
+__author__ = 'Zixiao Yang'
+__email__ = "zeke.yang@mail.utoronto.ca"
+__copyright__ = "2015 Zeke Yang"
 __license__ = "MIT License"
 
+buying_price = 900.00
+buying_shares = 2000
+buying_total = buying_price * buying_shares
+buying_commission = buying_total * 0.03
+buying_cost = buying_total + buying_commission
+print "Total cost of buy in is $", buying_cost
 
-money = 1000.00
-print(money)
+selling_price = 942.75
+selling_shares = 2000
+selling_total = selling_price * selling_shares
+selling_commission = selling_total * 0.03
+selling_income = selling_total - selling_commission
+print "Total earn of selling is $", selling_income
+
+profit = selling_income - buying_cost
+print(profit)
