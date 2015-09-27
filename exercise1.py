@@ -32,4 +32,4 @@ selling_income = selling_total - selling_commission
 print "Total earn of selling is $", selling_income
 
 profit = selling_income - buying_cost
-print(profit)
+print "Profit: $", profit

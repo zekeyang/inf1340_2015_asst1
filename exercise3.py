@@ -30,14 +30,14 @@ def diagnose_car():
 
     """
     respond = raw_input("Is the car silent when you turn the key?")
-    if respond == 'y' or respond == 'Y':
+    if respond == 'y' or respond == 'Y': # letters are case-sensitive
         respond = raw_input("Are the battery terminals corroded?")
         if respond == 'y' or respond == 'Y':
             print("Clean terminals and try starting again")
-        elif respond == 'n' or respond == 'N':
+        elif respond == 'n' or respond == 'N': # "else if", creates a branch under the original "if"
             print ("Replace cables and try again.")
         else:
-            print ("Error")
+            print ("Error") # a different inputted letter, or a space after the question, will result in an error
     elif respond == 'n' or respond == 'N':
         respond = raw_input("Does the car make a clicking noise?")
         if respond == 'y' or respond == 'Y':

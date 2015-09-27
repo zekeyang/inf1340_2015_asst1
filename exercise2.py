@@ -20,11 +20,11 @@ __Faculty__ = "Master of Information"
 def name_that_shape():
 
     side_number = raw_input("How many sides?")
-    prefix = 'The shape is named '
+    prefix = 'The shape is named ' # Develops a formal statement
     if side_number == '3':
         print(prefix + "triangle")
     elif side_number == '4':
-        print(prefix + "quadrangle")
+        print(prefix + "quadrangle") # Easily labels squares, rectangles, and parallelograms
     elif side_number == '5':
         print(prefix + "pentagon")
     elif side_number == '6':
@@ -38,7 +38,7 @@ def name_that_shape():
     elif side_number == '10':
         print(prefix + "decagon")
     else:
-        print("Error")
+        print("Error") # occurs if there is a space after the question or a number between 3 and 10 is not inputted
     return
 name_that_shape()
 
