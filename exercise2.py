@@ -12,11 +12,15 @@ __email__ = "zeke.yang@mail.utoronto.ca"
 __copyright__ = "2015 Zeke Yang"
 __license__ = "MIT License"
 
+__author__ = 'Paniz Pakravan'
+__email__ = "p.pakravan@mail.utoronto.ca"
+__Program__ = "Information Systems and Design"
+__Faculty__ = "Master of Information"
 
 def name_that_shape():
 
     side_number = raw_input("How many sides?")
-    prefix = 'The shape named '
+    prefix = 'The shape is named '
     if side_number == '3':
         print(prefix + "triangle")
     elif side_number == '4':

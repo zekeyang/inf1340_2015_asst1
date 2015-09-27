@@ -12,6 +12,11 @@ __email__ = "zeke.yang@mail.utoronto.ca"
 __copyright__ = "2015 Zeke Yang"
 __license__ = "MIT License"
 
+__author__ = 'Paniz Pakravan'
+__email__ = "p.pakravan@mail.utoronto.ca"
+__Program__ = "Information Systems and Design"
+__Faculty__ = "Faculty of Information"
+
 buying_price = 900.00
 buying_shares = 2000
 buying_total = buying_price * buying_shares

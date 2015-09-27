@@ -12,6 +12,10 @@ __email__ = "zeke.yang@mail.utoronto.ca"
 __copyright__ = "2015 Zeke Yang"
 __license__ = "MIT License"
 
+__author__ = 'Paniz Pakravan'
+__email__ = "p.pakravan@mail.utoronto.ca"
+__Program__ = "Information Systems and Design"
+__Faculty__ = "Master of Information"
 
 def diagnose_car():
     """
