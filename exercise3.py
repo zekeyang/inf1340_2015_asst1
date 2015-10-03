@@ -10,12 +10,12 @@ interactive diagnose car issues.
 __author__ = 'Zixiao Yang'
 __email__ = "zeke.yang@mail.utoronto.ca"
 __copyright__ = "2015 Zeke Yang"
-__license__ = "MIT License"
+__date__ = "October 09, 2015"
 
 __author__ = 'Paniz Pakravan'
 __email__ = "p.pakravan@mail.utoronto.ca"
+__copyright__ = "2015 Paniz Pakravan"
 __date__ = "October 09, 2015"
-__program__ = "Information Systems & Design"
 
 def diagnose_car():
     """
