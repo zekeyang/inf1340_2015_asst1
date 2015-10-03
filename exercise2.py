@@ -5,17 +5,23 @@
 This module contains one function name_that_shape(). It prompts the user
 to input the number of sides in a shape and outputs the name of the shape.
 
+Inputs: None
+
+Expected outputs: Number of sides
+
+Outputs: Name of shape
+
 """
 
 __author__ = 'Zixiao Yang'
 __email__ = "zeke.yang@mail.utoronto.ca"
 __copyright__ = "2015 Zeke Yang"
-__license__ = "MIT License"
+__date__ = "October 09, 2015"
 
-__author__ = 'Paniz Pakravan'
+__author__ = "Paniz Pakravan"
 __email__ = "p.pakravan@mail.utoronto.ca"
-__Program__ = "Information Systems and Design"
-__Faculty__ = "Master of Information"
+__date__ = "October 09, 2015"
+__program__ = "Information Systems & Design"
 
 def name_that_shape():
 

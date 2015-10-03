@@ -14,19 +14,19 @@ __license__ = "MIT License"
 
 __author__ = 'Paniz Pakravan'
 __email__ = "p.pakravan@mail.utoronto.ca"
-__Program__ = "Information Systems and Design"
-__Faculty__ = "Master of Information"
+__date__ = "October 09, 2015"
+__program__ = "Information Systems & Design"
 
 def diagnose_car():
     """
     Interactively queries the user with yes/no questions to identify a
     possible issue with a car.
 
-    Inputs:
+    Inputs: None
 
-    Expected Outputs:
+    Expected Outputs: Y or y, N or n
 
-    Errors:
+    Outputs: Instructed responses such as "Replace your battery", or "Error"
 
     """
     respond = raw_input("Is the car silent when you turn the key?")

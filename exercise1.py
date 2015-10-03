@@ -10,12 +10,12 @@ after the stock transactions
 __author__ = 'Zixiao Yang'
 __email__ = "zeke.yang@mail.utoronto.ca"
 __copyright__ = "2015 Zeke Yang"
-__license__ = "MIT License"
+__date__ = "October 09, 2015"
 
-__author__ = 'Paniz Pakravan'
+__author__ = "Paniz Pakravan"
 __email__ = "p.pakravan@mail.utoronto.ca"
-__Program__ = "Information Systems and Design"
-__Faculty__ = "Faculty of Information"
+__date__ = "October 09, 2015"
+__program__ = "Information Systems & Design"
 
 buying_price = 900.00
 buying_shares = 2000
@@ -31,5 +31,5 @@ selling_commission = selling_total * 0.03
 selling_income = selling_total - selling_commission
 print "Total earn of selling is $", selling_income
 
-profit = selling_income - buying_cost
+profit = selling_income - buying_cost # Negative amount; money has been lost
 print "Profit: $", profit
