@@ -3,8 +3,14 @@
 """ Assignment 1, Exercise 3, INF1340, Fall, 2015. Troubleshooting Car Issues.
 
 This module contains one function diagnose_car(). It is an expert system to
-interactive diagnose car issues. This program take "Y" and "y" as yes, "N" and "n" as no.
-The following test cases had been tested with both upper cases and lower cases
+interactive diagnose car issues. 
+
+Please note:
+1) This program take "Y" and "y" as yes, "N" and "n" as no.
+2) The following test cases had been tested with both upper cases and lower cases. 
+3) For space saving, below only list the test cases with lower case inputs, but we tested same way with upper case inputs
+4) Below test cases DO NOT include the initial output of "Is the car silent when you turn the key?". Because the initial
+   output is not depending on any condition, we are not displaying them. 
 
 TEST CASE 1
 Input:              y
