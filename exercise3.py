@@ -176,7 +176,7 @@ def diagnose_car():
     if respond == 'y' or respond == 'Y':
         respond = raw_input("Are the battery terminals corroded?")
         if respond == 'y' or respond == 'Y':  # User input is case-sensitive, accepting "y" or "Y"
-            print("Clean terminals and try starting again")
+            print("Clean terminals and try starting again.")
         elif respond == 'n' or respond == 'N':  # User input is case-sensitive, accepting "n" or "N"
             print ("Replace cables and try again.")
         else:
@@ -194,7 +194,7 @@ def diagnose_car():
                 if respond == 'y' or respond == 'Y':
                     respond = raw_input("Does your car have fuel injection?")
                     if respond == 'n' or respond == 'N':
-                        print("Check to ensure the choke is opening and closing")
+                        print("Check to ensure the choke is opening and closing.")
                     elif respond == 'y' or respond == 'Y':
                         print("Get it in for service.")
                     else:
@@ -210,4 +210,4 @@ def diagnose_car():
     else:
         print("Error")
 
-diagnose_car()  # calling the function 
+#diagnose_car()  # calling the function

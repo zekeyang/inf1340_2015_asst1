@@ -71,25 +71,24 @@ __date__ = "October 09, 2015"
 def name_that_shape():
 
     side_number = raw_input("How many sides?")  # Gather user input
-    prefix = "The shape is named "  # Assigning a string value
     if side_number == '3':  # Using if...elif...else statement to check user input and have correct output
-        print(prefix + "triangle")
+        print("triangle")
     elif side_number == '4':
-        print(prefix + "quadrangle")
+        print("quadrilateral")
     elif side_number == '5':
-        print(prefix + "pentagon")
+        print("pentagon")
     elif side_number == '6':
-        print(prefix + "hexagon")
+        print("hexagon")
     elif side_number == '7':
-        print(prefix + "heptagon")
+        print("heptagon")
     elif side_number == '8':
-        print(prefix + "octagon")
+        print("octagon")
     elif side_number == '9':
-        print(prefix + "enneagon")
+        print("nonagon")
     elif side_number == '10':
-        print(prefix + "decagon")
+        print("decagon")
     else:
         print("Error")  # occurs if user NOT input a number between 3 and 10
     return
-name_that_shape()  # calling the function
+#name_that_shape()  # calling the function
 
