@@ -204,4 +204,4 @@ def diagnose_car():
     else:
         print("Error")
 
-diagnose_car()  # calling the function 
+diagnose_car()  # calling the function
